@@ -6,7 +6,7 @@ class BlobPlayer {
     this.vx = 0;
     this.vy = 0;
 
-    this.accel = 0.55;
+    this.accel = 0.3;
     this.maxRun = 4.0;
 
     this.gravity = 0.65;
@@ -30,7 +30,7 @@ class BlobPlayer {
     this.y = level.start.y;
     this.r = level.start.r;
 
-    this.vx = 0;
+    this.vx = 2;
     this.vy = 0;
     this.onGround = false;
 
